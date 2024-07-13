@@ -9,9 +9,19 @@
 
 .container{
   width: 100%;
-  height: 700vh;
+  height: 900vh;
   display: block;
   justify-content: center;
   align-items: center;
   background-color: #f1f1f1;
+}
+
+video{
+  object-fit: contain !important;
+  width: 100% !important;
+}
+
+canvas{
+ width: 100% !important;
+
 }
